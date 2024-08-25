@@ -1,0 +1,12 @@
+[package]
+name = "broadcast"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Lock-free mpmc broadcast channel"
+repository = "https://github.com/bakalover/broadcast"
+
+
+[dependencies]
+tokio = { version = "1", features = ["rt", "sync"] }
+loom = "0.7"
