@@ -1,0 +1,11 @@
+[package]
+name = "yanoo"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Lock-free mpmc broadcast channel"
+repository = "https://github.com/bakalover/yanoo"
+
+
+[dependencies]
+loom = "0.7"
