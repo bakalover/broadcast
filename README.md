@@ -10,9 +10,18 @@ Lock-Free implementation of `tokio::sync::broadcast`
 
 ---
 
+## Architecture
+### Simple lock-free queue
+TODO
+
+### Circular sharding writes
+TODO
+---
+
 ## Performance
 
 TODO
+
 
 ## Reference
 + [The Art of Multiprocessor Programming by Maurice Herlihy & Nir Shavit](https://github.com/amilajack/reading/blob/master/Computer_Science/The%20Art%20of%20Multiprocessor%20Programming.pdf)
